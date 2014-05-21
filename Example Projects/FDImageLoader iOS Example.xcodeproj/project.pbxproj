@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27025478192C2FAE00EF8FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025477192C2FAE00EF8FAD /* Foundation.framework */; };
+		2702547A192C2FAE00EF8FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025479192C2FAE00EF8FAD /* CoreGraphics.framework */; };
+		2702547C192C2FAE00EF8FAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547B192C2FAE00EF8FAD /* QuartzCore.framework */; };
+		2702547E192C2FAE00EF8FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547D192C2FAE00EF8FAD /* UIKit.framework */; };
+		27025484192C2FAE00EF8FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27025483192C2FAE00EF8FAD /* main.m */; };
+		2702548A192C2FAE00EF8FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27025489192C2FAE00EF8FAD /* AppDelegate.m */; };
+		2702548D192C2FAE00EF8FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2702548C192C2FAE00EF8FAD /* Images.xcassets */; };
+		2702548F192C2FAE00EF8FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2702548E192C2FAE00EF8FAD /* InfoPlist.strings */; };
+		27025491192C2FAE00EF8FAD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 27025490192C2FAE00EF8FAD /* iTunesArtwork */; };
+		27025493192C2FAE00EF8FAD /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */; };
+		2770A544192C34BA00F85F97 /* libFDImageLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770A48C192C346D00F85F97 /* libFDImageLoader.a */; };
+		2770A54E192C376C00F85F97 /* FDImgurAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2770A48B192C346D00F85F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2770A487192C346D00F85F97 /* FDImageLoader Static Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275624B4192C2E0700D0331F;
+			remoteInfo = FDImageLoader;
+		};
+		2770A542192C34AD00F85F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2770A487192C346D00F85F97 /* FDImageLoader Static Library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 275624B3192C2E0700D0331F;
+			remoteInfo = FDImageLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDImageLoader iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27025477192C2FAE00EF8FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27025479192C2FAE00EF8FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2702547B192C2FAE00EF8FAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2702547D192C2FAE00EF8FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27025481192C2FAE00EF8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27025482192C2FAE00EF8FAD /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		27025483192C2FAE00EF8FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27025485192C2FAE00EF8FAD /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		27025488192C2FAE00EF8FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27025489192C2FAE00EF8FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2702548C192C2FAE00EF8FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2702548E192C2FAE00EF8FAD /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		27025490192C2FAE00EF8FAD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		2770A487192C346D00F85F97 /* FDImageLoader Static Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FDImageLoader Static Library.xcodeproj"; path = "../../Static Library Project/FDImageLoader Static Library.xcodeproj"; sourceTree = "<group>"; };
+		2770A54C192C376C00F85F97 /* FDImgurAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImgurAPIClient.h; sourceTree = "<group>"; };
+		2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImgurAPIClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27025471192C2FAE00EF8FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27025478192C2FAE00EF8FAD /* Foundation.framework in Frameworks */,
+				2702547A192C2FAE00EF8FAD /* CoreGraphics.framework in Frameworks */,
+				2702547C192C2FAE00EF8FAD /* QuartzCore.framework in Frameworks */,
+				2702547E192C2FAE00EF8FAD /* UIKit.framework in Frameworks */,
+				2770A544192C34BA00F85F97 /* libFDImageLoader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2702546B192C2FAE00EF8FAD = {
+			isa = PBXGroup;
+			children = (
+				2702547F192C2FAE00EF8FAD /* FDImageLoader iOS Example */,
+				27025486192C2FAE00EF8FAD /* Vendors */,
+				27025476192C2FAE00EF8FAD /* Frameworks */,
+				27025475192C2FAE00EF8FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27025475192C2FAE00EF8FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27025476192C2FAE00EF8FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27025477192C2FAE00EF8FAD /* Foundation.framework */,
+				27025479192C2FAE00EF8FAD /* CoreGraphics.framework */,
+				2702547B192C2FAE00EF8FAD /* QuartzCore.framework */,
+				2702547D192C2FAE00EF8FAD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2702547F192C2FAE00EF8FAD /* FDImageLoader iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				27025487192C2FAE00EF8FAD /* Shared */,
+				27025480192C2FAE00EF8FAD /* Supporting Files */,
+			);
+			path = "FDImageLoader iOS Example";
+			sourceTree = "<group>";
+		};
+		27025480192C2FAE00EF8FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27025481192C2FAE00EF8FAD /* Info.plist */,
+				27025482192C2FAE00EF8FAD /* Prefix.pch */,
+				27025483192C2FAE00EF8FAD /* main.m */,
+				27025485192C2FAE00EF8FAD /* Entitlements.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27025486192C2FAE00EF8FAD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				2770A487192C346D00F85F97 /* FDImageLoader Static Library.xcodeproj */,
+			);
+			name = Vendors;
+			path = "FDImageLoader iOS Example";
+			sourceTree = "<group>";
+		};
+		27025487192C2FAE00EF8FAD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				27025497192C2FAE00EF8FAD /* Classes */,
+				27025494192C2FAE00EF8FAD /* Views */,
+				2702548B192C2FAE00EF8FAD /* Resources */,
+				27025488192C2FAE00EF8FAD /* AppDelegate.h */,
+				27025489192C2FAE00EF8FAD /* AppDelegate.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2702548B192C2FAE00EF8FAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2702548C192C2FAE00EF8FAD /* Images.xcassets */,
+				2702548E192C2FAE00EF8FAD /* InfoPlist.strings */,
+				27025490192C2FAE00EF8FAD /* iTunesArtwork */,
+				27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27025494192C2FAE00EF8FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27025496192C2FAE00EF8FAD /* Controllers */,
+				27025495192C2FAE00EF8FAD /* Controls */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27025495192C2FAE00EF8FAD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		27025496192C2FAE00EF8FAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27025497192C2FAE00EF8FAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				270254A2192C2FAE00EF8FAD /* Common */,
+				270254A1192C2FAE00EF8FAD /* Controllers */,
+				2702549C192C2FAE00EF8FAD /* Controls */,
+				2702549B192C2FAE00EF8FAD /* Categories */,
+				2702549A192C2FAE00EF8FAD /* Models */,
+				27025499192C2FAE00EF8FAD /* Managers */,
+				27025498192C2FAE00EF8FAD /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27025498192C2FAE00EF8FAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2770A54B192C371B00F85F97 /* imgur */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27025499192C2FAE00EF8FAD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2702549A192C2FAE00EF8FAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2702549B192C2FAE00EF8FAD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2702549C192C2FAE00EF8FAD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2702549D192C2FAE00EF8FAD /* Common */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		2702549D192C2FAE00EF8FAD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		270254A1192C2FAE00EF8FAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		270254A2192C2FAE00EF8FAD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2770A488192C346D00F85F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2770A48C192C346D00F85F97 /* libFDImageLoader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2770A54B192C371B00F85F97 /* imgur */ = {
+			isa = PBXGroup;
+			children = (
+				2770A54C192C376C00F85F97 /* FDImgurAPIClient.h */,
+				2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */,
+			);
+			path = imgur;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27025473192C2FAE00EF8FAD /* FDImageLoader iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270254B6192C2FAE00EF8FAD /* Build configuration list for PBXNativeTarget "FDImageLoader iOS Example" */;
+			buildPhases = (
+				27025470192C2FAE00EF8FAD /* Sources */,
+				27025471192C2FAE00EF8FAD /* Frameworks */,
+				27025472192C2FAE00EF8FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2770A543192C34AD00F85F97 /* PBXTargetDependency */,
+			);
+			name = "FDImageLoader iOS Example";
+			productName = "FDImageLoader iOS Example";
+			productReference = 27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2702546C192C2FAE00EF8FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 2702546F192C2FAE00EF8FAD /* Build configuration list for PBXProject "FDImageLoader iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2702546B192C2FAE00EF8FAD;
+			productRefGroup = 27025475192C2FAE00EF8FAD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2770A488192C346D00F85F97 /* Products */;
+					ProjectRef = 2770A487192C346D00F85F97 /* FDImageLoader Static Library.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				27025473192C2FAE00EF8FAD /* FDImageLoader iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2770A48C192C346D00F85F97 /* libFDImageLoader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFDImageLoader.a;
+			remoteRef = 2770A48B192C346D00F85F97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27025472192C2FAE00EF8FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27025493192C2FAE00EF8FAD /* iTunesArtwork@2x in Resources */,
+				2702548D192C2FAE00EF8FAD /* Images.xcassets in Resources */,
+				27025491192C2FAE00EF8FAD /* iTunesArtwork in Resources */,
+				2702548F192C2FAE00EF8FAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27025470192C2FAE00EF8FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2770A54E192C376C00F85F97 /* FDImgurAPIClient.m in Sources */,
+				2702548A192C2FAE00EF8FAD /* AppDelegate.m in Sources */,
+				27025484192C2FAE00EF8FAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2770A543192C34AD00F85F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDImageLoader;
+			targetProxy = 2770A542192C34AD00F85F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		270254B3192C2FAE00EF8FAD /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDImageLoader iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = AD_HOC;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		270254B4192C2FAE00EF8FAD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDImageLoader iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = APP_STORE;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		270254B5192C2FAE00EF8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDImageLoader iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		270254B7192C2FAE00EF8FAD /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		270254B8192C2FAE00EF8FAD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "App Store";
+		};
+		270254B9192C2FAE00EF8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2702546F192C2FAE00EF8FAD /* Build configuration list for PBXProject "FDImageLoader iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270254B3192C2FAE00EF8FAD /* Ad Hoc */,
+				270254B4192C2FAE00EF8FAD /* App Store */,
+				270254B5192C2FAE00EF8FAD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad Hoc";
+		};
+		270254B6192C2FAE00EF8FAD /* Build configuration list for PBXNativeTarget "FDImageLoader iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270254B7192C2FAE00EF8FAD /* Ad Hoc */,
+				270254B8192C2FAE00EF8FAD /* App Store */,
+				270254B9192C2FAE00EF8FAD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Ad Hoc";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2702546C192C2FAE00EF8FAD /* Project object */;
+}

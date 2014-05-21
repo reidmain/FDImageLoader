@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275624B8192C2E0700D0331F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275624B7192C2E0700D0331F /* Foundation.framework */; };
+		2770A541192C349F00F85F97 /* libFDRequestClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770A53E192C349100F85F97 /* libFDRequestClient.a */; };
+		27804733192C2E7E00F8A861 /* FDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27804732192C2E7E00F8A861 /* FDImageLoader.m */; };
+		27804736192C2F4B00F8A861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27804735192C2F4B00F8A861 /* UIKit.framework */; };
+		27804737192C2F6F00F8A861 /* FDImageLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27804731192C2E7E00F8A861 /* FDImageLoader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2770A53D192C349100F85F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2770A538192C349100F85F97 /* FDRequestClient Static Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27AE0F3616AD966A001F5771;
+			remoteInfo = FDRequestClient;
+		};
+		2770A53F192C349A00F85F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2770A538192C349100F85F97 /* FDRequestClient Static Library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AE0F3516AD966A001F5771;
+			remoteInfo = FDRequestClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		275624B2192C2E0700D0331F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				27804737192C2F6F00F8A861 /* FDImageLoader.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		275624B4192C2E0700D0331F /* libFDImageLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFDImageLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		275624B7192C2E0700D0331F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275624BB192C2E0700D0331F /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		2770A538192C349100F85F97 /* FDRequestClient Static Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FDRequestClient Static Library.xcodeproj"; path = "FDRequestClient/Static Library Project/FDRequestClient Static Library.xcodeproj"; sourceTree = "<group>"; };
+		27804731192C2E7E00F8A861 /* FDImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImageLoader.h; sourceTree = "<group>"; };
+		27804732192C2E7E00F8A861 /* FDImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImageLoader.m; sourceTree = "<group>"; };
+		27804735192C2F4B00F8A861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275624B1192C2E0700D0331F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275624B8192C2E0700D0331F /* Foundation.framework in Frameworks */,
+				27804736192C2F4B00F8A861 /* UIKit.framework in Frameworks */,
+				2770A541192C349F00F85F97 /* libFDRequestClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275624AB192C2E0700D0331F = {
+			isa = PBXGroup;
+			children = (
+				275624B9192C2E0700D0331F /* FDImageLoader Static Library */,
+				275624B6192C2E0700D0331F /* Frameworks */,
+				275624B5192C2E0700D0331F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275624B5192C2E0700D0331F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275624B4192C2E0700D0331F /* libFDImageLoader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275624B6192C2E0700D0331F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275624B7192C2E0700D0331F /* Foundation.framework */,
+				27804735192C2F4B00F8A861 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		275624B9192C2E0700D0331F /* FDImageLoader Static Library */ = {
+			isa = PBXGroup;
+			children = (
+				27804730192C2E7200F8A861 /* FDImageLoader */,
+				2770A48D192C348700F85F97 /* Vendors */,
+				275624BA192C2E0700D0331F /* Supporting Files */,
+			);
+			path = "FDImageLoader Static Library";
+			sourceTree = "<group>";
+		};
+		275624BA192C2E0700D0331F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				275624BB192C2E0700D0331F /* Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2770A48D192C348700F85F97 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				2770A538192C349100F85F97 /* FDRequestClient Static Library.xcodeproj */,
+			);
+			name = Vendors;
+			path = ../../Vendors;
+			sourceTree = "<group>";
+		};
+		2770A539192C349100F85F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2770A53E192C349100F85F97 /* libFDRequestClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27804730192C2E7200F8A861 /* FDImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				27804731192C2E7E00F8A861 /* FDImageLoader.h */,
+				27804732192C2E7E00F8A861 /* FDImageLoader.m */,
+			);
+			name = FDImageLoader;
+			path = ../../FDImageLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275624B3192C2E0700D0331F /* FDImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275624D7192C2E0700D0331F /* Build configuration list for PBXNativeTarget "FDImageLoader" */;
+			buildPhases = (
+				275624B0192C2E0700D0331F /* Sources */,
+				275624B1192C2E0700D0331F /* Frameworks */,
+				275624B2192C2E0700D0331F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2770A540192C349A00F85F97 /* PBXTargetDependency */,
+			);
+			name = FDImageLoader;
+			productName = "FDImageLoader Static Library";
+			productReference = 275624B4192C2E0700D0331F /* libFDImageLoader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275624AC192C2E0700D0331F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "1414 Degrees";
+			};
+			buildConfigurationList = 275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader Static Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 275624AB192C2E0700D0331F;
+			productRefGroup = 275624B5192C2E0700D0331F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2770A539192C349100F85F97 /* Products */;
+					ProjectRef = 2770A538192C349100F85F97 /* FDRequestClient Static Library.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				275624B3192C2E0700D0331F /* FDImageLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2770A53E192C349100F85F97 /* libFDRequestClient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFDRequestClient.a;
+			remoteRef = 2770A53D192C349100F85F97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275624B0192C2E0700D0331F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27804733192C2E7E00F8A861 /* FDImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2770A540192C349A00F85F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDRequestClient;
+			targetProxy = 2770A53F192C349A00F85F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		275624D5192C2E0700D0331F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		275624D6192C2E0700D0331F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275624D8192C2E0700D0331F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FDImageLoader_Static_Library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDImageLoader Static Library/Supporting Files/Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		275624D9192C2E0700D0331F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FDImageLoader_Static_Library.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDImageLoader Static Library/Supporting Files/Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275624D5192C2E0700D0331F /* Debug */,
+				275624D6192C2E0700D0331F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275624D7192C2E0700D0331F /* Build configuration list for PBXNativeTarget "FDImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275624D8192C2E0700D0331F /* Debug */,
+				275624D9192C2E0700D0331F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275624AC192C2E0700D0331F /* Project object */;
+}
