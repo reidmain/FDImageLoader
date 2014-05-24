@@ -13,12 +13,11 @@ static void * const _RequestClientTaskKey;
 @implementation UIImageView (FDImageLoaderAdditions)
 
 
-#pragma mark - Properties
-
-
 #pragma mark - Public Methods
 
-- (void)setImageWithURL: (NSURL *)url
+- (void)setImageWithURL: (NSURL *)url 
+	placeholderImage: (UIImage *)placeholderImage 
+	completionBlock: (UIImageViewImageLoaderCompletionBlock)completionBlock
 {
 	// Ensure there is a weak reference associated with the image view that will be used to store the current request client task.
 	FDWeakReference *weakReference = objc_getAssociatedObject(self, _RequestClientTaskKey);
@@ -41,7 +40,27 @@ static void * const _RequestClientTaskKey;
 				FDWeakSelfImportReturn();
 				
 				self.image = image;
+				
+				if (completionBlock != nil)
+				{
+					completionBlock();
+				}
 			}];
+}
+
+- (void)setImageWithURL: (NSURL *)url 
+	placeholderImage: (UIImage *)placeholderImage
+{
+	[self setImageWithURL: url 
+		placeholderImage: placeholderImage 
+		completionBlock: nil];
+}
+
+- (void)setImageWithURL: (NSURL *)url
+{
+	[self setImageWithURL: url 
+		placeholderImage: nil 
+		completionBlock: nil];
 }
 
 

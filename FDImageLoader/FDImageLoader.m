@@ -69,6 +69,7 @@ static FDImageLoader *_sharedInstance;
 	
 	// Initialize instance variables.
 	_requestClient = [FDRequestClient new];
+	_requestClient.logCurlCommandsToConsole = NO;
 	
 	// Return initialized instance.
 	return self;
