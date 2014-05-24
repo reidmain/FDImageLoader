@@ -104,7 +104,14 @@ static FDImageLoader *_sharedInstance;
 				if (completionBlock != nil 
 					&& urlResponse.status != FDURLResponseStatusCancelled)
 				{
-					completionBlock(urlResponse.content);
+					UIImage *image = nil;
+					
+					if ([urlResponse.content isKindOfClass: [UIImage class]] == YES)
+					{
+						image = urlResponse.content;
+					}
+					
+					completionBlock(image);
 				}
 			}];
 	

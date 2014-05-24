@@ -12,6 +12,8 @@
 		27804733192C2E7E00F8A861 /* FDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27804732192C2E7E00F8A861 /* FDImageLoader.m */; };
 		27804736192C2F4B00F8A861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27804735192C2F4B00F8A861 /* UIKit.framework */; };
 		27804737192C2F6F00F8A861 /* FDImageLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27804731192C2E7E00F8A861 /* FDImageLoader.h */; };
+		27BC5678192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC5677192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.m */; };
+		27BC5679192FF1BC00F27330 /* UIImageView+FDImageLoaderAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27BC5676192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				27BC5679192FF1BC00F27330 /* UIImageView+FDImageLoaderAdditions.h in CopyFiles */,
 				27804737192C2F6F00F8A861 /* FDImageLoader.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,8 @@
 		27804731192C2E7E00F8A861 /* FDImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImageLoader.h; sourceTree = "<group>"; };
 		27804732192C2E7E00F8A861 /* FDImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImageLoader.m; sourceTree = "<group>"; };
 		27804735192C2F4B00F8A861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27BC5676192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FDImageLoaderAdditions.h"; sourceTree = "<group>"; };
+		27BC5677192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FDImageLoaderAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +139,8 @@
 			children = (
 				27804731192C2E7E00F8A861 /* FDImageLoader.h */,
 				27804732192C2E7E00F8A861 /* FDImageLoader.m */,
+				27BC5676192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.h */,
+				27BC5677192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.m */,
 			);
 			name = FDImageLoader;
 			path = ../../FDImageLoader;
@@ -208,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27804733192C2E7E00F8A861 /* FDImageLoader.m in Sources */,
+				27BC5678192FF0AA00F27330 /* UIImageView+FDImageLoaderAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
