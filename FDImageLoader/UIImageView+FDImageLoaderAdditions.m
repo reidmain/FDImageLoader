@@ -5,7 +5,7 @@
 
 #pragma mark Constants
 
-static void * const _RequestClientTaskKey;
+static void * const _RequestClientTaskKey = (void *)&_RequestClientTaskKey;
 
 
 #pragma mark - Class Definition
