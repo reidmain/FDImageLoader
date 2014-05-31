@@ -1,3 +1,6 @@
+@import UIKit.UIImageView;
+
+
 #pragma mark Type Definitions
 
 typedef void (^UIImageViewImageLoaderCompletionBlock)();

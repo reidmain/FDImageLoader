@@ -1,5 +1,6 @@
 #import <FDRequestClient/FDRequestClient.h>
 #import "UIImageView+FDImageLoaderAdditions.h"
+@import UIKit.UIImage;
 
 
 #pragma mark Constants
