@@ -13,10 +13,6 @@
 		27016B3619E4E79400743236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3219E4E79400743236 /* InfoPlist.strings */; };
 		27016B3719E4E79400743236 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3319E4E79400743236 /* iTunesArtwork */; };
 		27016B3819E4E79400743236 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3419E4E79400743236 /* iTunesArtwork@2x */; };
-		27025478192C2FAE00EF8FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025477192C2FAE00EF8FAD /* Foundation.framework */; };
-		2702547A192C2FAE00EF8FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025479192C2FAE00EF8FAD /* CoreGraphics.framework */; };
-		2702547C192C2FAE00EF8FAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547B192C2FAE00EF8FAD /* QuartzCore.framework */; };
-		2702547E192C2FAE00EF8FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547D192C2FAE00EF8FAD /* UIKit.framework */; };
 		27025484192C2FAE00EF8FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27025483192C2FAE00EF8FAD /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +44,6 @@
 		27016B3319E4E79400743236 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		27016B3419E4E79400743236 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 		27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDImageLoader iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27025477192C2FAE00EF8FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		27025479192C2FAE00EF8FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2702547B192C2FAE00EF8FAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		2702547D192C2FAE00EF8FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27025481192C2FAE00EF8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27025482192C2FAE00EF8FAD /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		27025483192C2FAE00EF8FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,10 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27025478192C2FAE00EF8FAD /* Foundation.framework in Frameworks */,
-				2702547A192C2FAE00EF8FAD /* CoreGraphics.framework in Frameworks */,
-				2702547C192C2FAE00EF8FAD /* QuartzCore.framework in Frameworks */,
-				2702547E192C2FAE00EF8FAD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +112,6 @@
 			children = (
 				2702547F192C2FAE00EF8FAD /* FDImageLoader iOS Example */,
 				27025486192C2FAE00EF8FAD /* Vendors */,
-				27025476192C2FAE00EF8FAD /* Frameworks */,
 				27025475192C2FAE00EF8FAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,17 +122,6 @@
 				27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		27025476192C2FAE00EF8FAD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				27025477192C2FAE00EF8FAD /* Foundation.framework */,
-				27025479192C2FAE00EF8FAD /* CoreGraphics.framework */,
-				2702547B192C2FAE00EF8FAD /* QuartzCore.framework */,
-				2702547D192C2FAE00EF8FAD /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2702547F192C2FAE00EF8FAD /* FDImageLoader iOS Example */ = {
