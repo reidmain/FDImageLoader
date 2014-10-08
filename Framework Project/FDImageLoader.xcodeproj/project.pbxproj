@@ -115,7 +115,7 @@
 				27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */,
 			);
 			name = Vendors;
-			path = ../../Vendors;
+			path = ../Vendors;
 			sourceTree = "<group>";
 		};
 		27804730192C2E7200F8A861 /* FDImageLoader */ = {

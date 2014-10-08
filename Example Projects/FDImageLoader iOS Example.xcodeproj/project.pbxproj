@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27016B2E19E4E77900743236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27016B2919E4E77900743236 /* AppDelegate.m */; };
+		27016B2F19E4E77900743236 /* FDImgurAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27016B2D19E4E77900743236 /* FDImgurAPIClient.m */; };
+		27016B3519E4E79400743236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3119E4E79400743236 /* Images.xcassets */; };
+		27016B3619E4E79400743236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3219E4E79400743236 /* InfoPlist.strings */; };
+		27016B3719E4E79400743236 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3319E4E79400743236 /* iTunesArtwork */; };
+		27016B3819E4E79400743236 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 27016B3419E4E79400743236 /* iTunesArtwork@2x */; };
 		27025478192C2FAE00EF8FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025477192C2FAE00EF8FAD /* Foundation.framework */; };
 		2702547A192C2FAE00EF8FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27025479192C2FAE00EF8FAD /* CoreGraphics.framework */; };
 		2702547C192C2FAE00EF8FAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547B192C2FAE00EF8FAD /* QuartzCore.framework */; };
 		2702547E192C2FAE00EF8FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2702547D192C2FAE00EF8FAD /* UIKit.framework */; };
 		27025484192C2FAE00EF8FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27025483192C2FAE00EF8FAD /* main.m */; };
-		2702548A192C2FAE00EF8FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27025489192C2FAE00EF8FAD /* AppDelegate.m */; };
-		2702548D192C2FAE00EF8FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2702548C192C2FAE00EF8FAD /* Images.xcassets */; };
-		2702548F192C2FAE00EF8FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2702548E192C2FAE00EF8FAD /* InfoPlist.strings */; };
-		27025491192C2FAE00EF8FAD /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 27025490192C2FAE00EF8FAD /* iTunesArtwork */; };
-		27025493192C2FAE00EF8FAD /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */; };
-		2770A54E192C376C00F85F97 /* FDImgurAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,14 @@
 
 /* Begin PBXFileReference section */
 		27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDImageLoader.xcodeproj; path = "../../Framework Project/FDImageLoader.xcodeproj"; sourceTree = "<group>"; };
+		27016B2819E4E77900743236 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27016B2919E4E77900743236 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27016B2C19E4E77900743236 /* FDImgurAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImgurAPIClient.h; sourceTree = "<group>"; };
+		27016B2D19E4E77900743236 /* FDImgurAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImgurAPIClient.m; sourceTree = "<group>"; };
+		27016B3119E4E79400743236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27016B3219E4E79400743236 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		27016B3319E4E79400743236 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		27016B3419E4E79400743236 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 		27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDImageLoader iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27025477192C2FAE00EF8FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27025479192C2FAE00EF8FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,14 +56,6 @@
 		27025482192C2FAE00EF8FAD /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		27025483192C2FAE00EF8FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27025485192C2FAE00EF8FAD /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
-		27025488192C2FAE00EF8FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		27025489192C2FAE00EF8FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2702548C192C2FAE00EF8FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2702548E192C2FAE00EF8FAD /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		27025490192C2FAE00EF8FAD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		2770A54C192C376C00F85F97 /* FDImgurAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImgurAPIClient.h; sourceTree = "<group>"; };
-		2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImgurAPIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,44 @@
 				27016B2219E4E5BC00743236 /* FDImageLoader.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		27016B2719E4E77900743236 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27016B2819E4E77900743236 /* AppDelegate.h */,
+				27016B2919E4E77900743236 /* AppDelegate.m */,
+				27016B2A19E4E77900743236 /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27016B2A19E4E77900743236 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27016B2B19E4E77900743236 /* imgur */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27016B2B19E4E77900743236 /* imgur */ = {
+			isa = PBXGroup;
+			children = (
+				27016B2C19E4E77900743236 /* FDImgurAPIClient.h */,
+				27016B2D19E4E77900743236 /* FDImgurAPIClient.m */,
+			);
+			path = imgur;
+			sourceTree = "<group>";
+		};
+		27016B3019E4E79400743236 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27016B3119E4E79400743236 /* Images.xcassets */,
+				27016B3219E4E79400743236 /* InfoPlist.strings */,
+				27016B3319E4E79400743236 /* iTunesArtwork */,
+				27016B3419E4E79400743236 /* iTunesArtwork@2x */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2702546B192C2FAE00EF8FAD = {
@@ -113,7 +151,8 @@
 		2702547F192C2FAE00EF8FAD /* FDImageLoader iOS Example */ = {
 			isa = PBXGroup;
 			children = (
-				27025487192C2FAE00EF8FAD /* Shared */,
+				27016B2719E4E77900743236 /* Classes */,
+				27016B3019E4E79400743236 /* Resources */,
 				27025480192C2FAE00EF8FAD /* Supporting Files */,
 			);
 			path = "FDImageLoader iOS Example";
@@ -137,133 +176,6 @@
 			);
 			name = Vendors;
 			path = "FDImageLoader iOS Example";
-			sourceTree = "<group>";
-		};
-		27025487192C2FAE00EF8FAD /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				27025497192C2FAE00EF8FAD /* Classes */,
-				27025494192C2FAE00EF8FAD /* Views */,
-				2702548B192C2FAE00EF8FAD /* Resources */,
-				27025488192C2FAE00EF8FAD /* AppDelegate.h */,
-				27025489192C2FAE00EF8FAD /* AppDelegate.m */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		2702548B192C2FAE00EF8FAD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2702548C192C2FAE00EF8FAD /* Images.xcassets */,
-				2702548E192C2FAE00EF8FAD /* InfoPlist.strings */,
-				27025490192C2FAE00EF8FAD /* iTunesArtwork */,
-				27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		27025494192C2FAE00EF8FAD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				27025496192C2FAE00EF8FAD /* Controllers */,
-				27025495192C2FAE00EF8FAD /* Controls */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		27025495192C2FAE00EF8FAD /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		27025496192C2FAE00EF8FAD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		27025497192C2FAE00EF8FAD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				270254A2192C2FAE00EF8FAD /* Common */,
-				270254A1192C2FAE00EF8FAD /* Controllers */,
-				2702549C192C2FAE00EF8FAD /* Controls */,
-				2702549B192C2FAE00EF8FAD /* Categories */,
-				2702549A192C2FAE00EF8FAD /* Models */,
-				27025499192C2FAE00EF8FAD /* Managers */,
-				27025498192C2FAE00EF8FAD /* Services */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		27025498192C2FAE00EF8FAD /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				2770A54B192C371B00F85F97 /* imgur */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		27025499192C2FAE00EF8FAD /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		2702549A192C2FAE00EF8FAD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		2702549B192C2FAE00EF8FAD /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		2702549C192C2FAE00EF8FAD /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				2702549D192C2FAE00EF8FAD /* Common */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		2702549D192C2FAE00EF8FAD /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		270254A1192C2FAE00EF8FAD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		270254A2192C2FAE00EF8FAD /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		2770A54B192C371B00F85F97 /* imgur */ = {
-			isa = PBXGroup;
-			children = (
-				2770A54C192C376C00F85F97 /* FDImgurAPIClient.h */,
-				2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */,
-			);
-			path = imgur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,10 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27025493192C2FAE00EF8FAD /* iTunesArtwork@2x in Resources */,
-				2702548D192C2FAE00EF8FAD /* Images.xcassets in Resources */,
-				27025491192C2FAE00EF8FAD /* iTunesArtwork in Resources */,
-				2702548F192C2FAE00EF8FAD /* InfoPlist.strings in Resources */,
+				27016B3819E4E79400743236 /* iTunesArtwork@2x in Resources */,
+				27016B3519E4E79400743236 /* Images.xcassets in Resources */,
+				27016B3719E4E79400743236 /* iTunesArtwork in Resources */,
+				27016B3619E4E79400743236 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2770A54E192C376C00F85F97 /* FDImgurAPIClient.m in Sources */,
-				2702548A192C2FAE00EF8FAD /* AppDelegate.m in Sources */,
+				27016B2F19E4E77900743236 /* FDImgurAPIClient.m in Sources */,
+				27016B2E19E4E77900743236 /* AppDelegate.m in Sources */,
 				27025484192C2FAE00EF8FAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +305,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,7 +343,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;

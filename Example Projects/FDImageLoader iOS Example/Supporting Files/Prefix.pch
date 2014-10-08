@@ -6,5 +6,6 @@
 	@import Foundation;
 	@import QuartzCore;
 	@import UIKit;
-	#import <FDImageLoader/FDImageLoader.h>
+	
+	@import FDImageLoader;
 #endif
