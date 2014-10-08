@@ -20,7 +20,25 @@
 		2770A54E192C376C00F85F97 /* FDImgurAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		27016B2119E4E5BC00743236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27016AE619E4DFE400743236;
+			remoteInfo = "FDImageLoader iOS";
+		};
+		27016B2519E4E67C00743236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27016AE519E4DFE400743236;
+			remoteInfo = "FDImageLoader iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDImageLoader.xcodeproj; path = "../../Framework Project/FDImageLoader.xcodeproj"; sourceTree = "<group>"; };
 		27025474192C2FAE00EF8FAD /* FDImageLoader iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDImageLoader iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27025477192C2FAE00EF8FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27025479192C2FAE00EF8FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -36,7 +54,6 @@
 		2702548E192C2FAE00EF8FAD /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		27025490192C2FAE00EF8FAD /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		27025492192C2FAE00EF8FAD /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		2770A487192C346D00F85F97 /* FDImageLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDImageLoader.xcodeproj; path = "../../Static Library Project/FDImageLoader.xcodeproj"; sourceTree = "<group>"; };
 		2770A54C192C376C00F85F97 /* FDImgurAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDImgurAPIClient.h; sourceTree = "<group>"; };
 		2770A54D192C376C00F85F97 /* FDImgurAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDImgurAPIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27016B1C19E4E5BC00743236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27016B2219E4E5BC00743236 /* FDImageLoader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2702546B192C2FAE00EF8FAD = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +133,7 @@
 		27025486192C2FAE00EF8FAD /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				2770A487192C346D00F85F97 /* FDImageLoader.xcodeproj */,
+				27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */,
 			);
 			name = Vendors;
 			path = "FDImageLoader iOS Example";
@@ -255,6 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				27016B2619E4E67C00743236 /* PBXTargetDependency */,
 			);
 			name = "FDImageLoader iOS Example";
 			productName = "FDImageLoader iOS Example";
@@ -280,12 +306,28 @@
 			mainGroup = 2702546B192C2FAE00EF8FAD;
 			productRefGroup = 27025475192C2FAE00EF8FAD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 27016B1C19E4E5BC00743236 /* Products */;
+					ProjectRef = 27016B1B19E4E5BC00743236 /* FDImageLoader.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				27025473192C2FAE00EF8FAD /* FDImageLoader iOS Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		27016B2219E4E5BC00743236 /* FDImageLoader.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FDImageLoader.framework;
+			remoteRef = 27016B2119E4E5BC00743236 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		27025472192C2FAE00EF8FAD /* Resources */ = {
@@ -313,6 +355,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27016B2619E4E67C00743236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FDImageLoader iOS";
+			targetProxy = 27016B2519E4E67C00743236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		270254B3192C2FAE00EF8FAD /* Ad Hoc */ = {

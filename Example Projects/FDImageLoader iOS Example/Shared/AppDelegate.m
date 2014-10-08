@@ -34,6 +34,8 @@
 	{
 	}
 	
+	FDImageLoader *imageLoader = [FDImageLoader sharedInstance];
+	
 	// Show the main window.
 	[_mainWindow makeKeyAndVisible];
 	
