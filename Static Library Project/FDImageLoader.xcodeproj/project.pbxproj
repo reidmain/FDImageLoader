@@ -86,7 +86,7 @@
 		275624AB192C2E0700D0331F = {
 			isa = PBXGroup;
 			children = (
-				275624B9192C2E0700D0331F /* FDImageLoader Static Library */,
+				275624B9192C2E0700D0331F /* FDImageLoader Framework */,
 				275624B5192C2E0700D0331F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,13 +99,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		275624B9192C2E0700D0331F /* FDImageLoader Static Library */ = {
+		275624B9192C2E0700D0331F /* FDImageLoader Framework */ = {
 			isa = PBXGroup;
 			children = (
 				27804730192C2E7200F8A861 /* FDImageLoader */,
 				27016B0119E4E03D00743236 /* iOS Supporting Files */,
 				2770A48D192C348700F85F97 /* Vendors */,
 			);
+			name = "FDImageLoader Framework";
 			path = "FDImageLoader Static Library";
 			sourceTree = "<group>";
 		};
@@ -178,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader Static Library" */;
+			buildConfigurationList = 275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -375,7 +376,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader Static Library" */ = {
+		275624AF192C2E0700D0331F /* Build configuration list for PBXProject "FDImageLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275624D5192C2E0700D0331F /* Debug */,
