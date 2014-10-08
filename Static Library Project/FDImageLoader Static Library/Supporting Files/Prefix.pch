@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files in the 'FDImageLoader Static Library' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-	#import <QuartzCore/QuartzCore.h>
-	#import <UIKIt/UIKit.h>
-#endif
