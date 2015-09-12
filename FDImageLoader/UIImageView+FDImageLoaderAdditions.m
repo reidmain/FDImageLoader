@@ -1,6 +1,8 @@
 #import "UIImageView+FDImageLoaderAdditions.h"
+
+@import ObjectiveC;
+
 #import "FDImageLoader.h"
-#import <objc/runtime.h>
 
 
 #pragma mark Constants

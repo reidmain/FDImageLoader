@@ -21,20 +21,12 @@
 		initWithFrame: mainScreen.bounds];
 	
 	_mainWindow.backgroundColor = [UIColor blackColor];
-	
-	// TODO: Create the root view controller based on what platform the app is running on.
-	UIDevice *currentDevice = [UIDevice currentDevice];
-	
-	UIUserInterfaceIdiom idiom = currentDevice.userInterfaceIdiom;
-	
-	if (idiom == UIUserInterfaceIdiomPad)
-	{
-	}
-	else
-	{
-	}
+	_mainWindow.rootViewController = [[UIViewController alloc] init];
 	
 	FDImageLoader *imageLoader = [FDImageLoader sharedInstance];
+	
+	UIImageView *imageView = [UIImageView new];
+	[imageView setImageWithURL: nil];
 	
 	// Show the main window.
 	[_mainWindow makeKeyAndVisible];

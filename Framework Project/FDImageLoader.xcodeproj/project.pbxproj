@@ -28,19 +28,33 @@
 			remoteGlobalIDString = 27F79D8919B7881A00E118DB;
 			remoteInfo = "FDRequestClient OS X";
 		};
-		27016B1219E4E3A600743236 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27AE0F3616AD966A001F5771;
-			remoteInfo = "FDRequestClient iOS (Static)";
-		};
 		27016B1419E4E3C100743236 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 2762725719BFB36600625CA4;
 			remoteInfo = "FDRequestClient iOS";
+		};
+		27B73D9D1BA4D0DC00E74DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B348671BA3D9870064276F;
+			remoteInfo = "FDRequestClient watchOS";
+		};
+		27B73D9F1BA4D0DC00E74DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B348711BA3DB360064276F;
+			remoteInfo = "FDRequestClient iOS Tests";
+		};
+		27B73DA11BA4D0DC00E74DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27016B0719E4E3A600743236 /* FDRequestClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B3488F1BA3DB470064276F;
+			remoteInfo = "FDRequestClient OS X Tests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -77,8 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				27016B0F19E4E3A600743236 /* FDRequestClient.framework */,
+				27B73D9E1BA4D0DC00E74DB6 /* FDRequestClient.framework */,
 				27016B1119E4E3A600743236 /* FDRequestClient.framework */,
-				27016B1319E4E3A600743236 /* libFDRequestClient.a */,
+				27B73DA01BA4D0DC00E74DB6 /* FDRequestClient iOS Tests.xctest */,
+				27B73DA21BA4D0DC00E74DB6 /* FDRequestClient OS X Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				275624B9192C2E0700D0331F /* FDImageLoader Framework */,
+				2770A48D192C348700F85F97 /* Vendors */,
 				275624B5192C2E0700D0331F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +121,6 @@
 			children = (
 				27804730192C2E7200F8A861 /* FDImageLoader */,
 				27016B0119E4E03D00743236 /* iOS Supporting Files */,
-				2770A48D192C348700F85F97 /* Vendors */,
 			);
 			name = "FDImageLoader Framework";
 			sourceTree = "<group>";
@@ -170,7 +186,7 @@
 		275624AC192C2E0700D0331F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "1414 Degrees";
 				TargetAttributes = {
 					27016AE519E4DFE400743236 = {
@@ -216,11 +232,25 @@
 			remoteRef = 27016B1019E4E3A600743236 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		27016B1319E4E3A600743236 /* libFDRequestClient.a */ = {
+		27B73D9E1BA4D0DC00E74DB6 /* FDRequestClient.framework */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFDRequestClient.a;
-			remoteRef = 27016B1219E4E3A600743236 /* PBXContainerItemProxy */;
+			fileType = wrapper.framework;
+			path = FDRequestClient.framework;
+			remoteRef = 27B73D9D1BA4D0DC00E74DB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27B73DA01BA4D0DC00E74DB6 /* FDRequestClient iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "FDRequestClient iOS Tests.xctest";
+			remoteRef = 27B73D9F1BA4D0DC00E74DB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27B73DA21BA4D0DC00E74DB6 /* FDRequestClient OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "FDRequestClient OS X Tests.xctest";
+			remoteRef = 27B73DA11BA4D0DC00E74DB6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -265,11 +295,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "iOS Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -286,11 +316,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "iOS Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -314,7 +344,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -325,10 +356,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1414degrees.imageloader;
 				PRODUCT_NAME = FDImageLoader;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,17 +379,15 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1414degrees.imageloader;
 				PRODUCT_NAME = FDImageLoader;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

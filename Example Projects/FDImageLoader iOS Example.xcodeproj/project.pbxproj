@@ -182,7 +182,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FD;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2702546F192C2FAE00EF8FAD /* Build configuration list for PBXProject "FDImageLoader iOS Example" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -282,7 +282,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
@@ -320,7 +319,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"/**";
@@ -347,6 +345,7 @@
 				CODE_SIGN_ENTITLEMENTS = "FDImageLoader iOS Example/Supporting Files/Entitlements.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -360,7 +359,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -374,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
 				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1414degrees.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
 				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1414degrees.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FDImageLoader iOS Example/Supporting Files/Prefix.pch";
 				INFOPLIST_FILE = "FDImageLoader iOS Example/Supporting Files/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1414degrees.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
