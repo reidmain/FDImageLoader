@@ -32,6 +32,9 @@ static void * const _RequestClientTaskKey = (void *)&_RequestClientTaskKey;
 	// Cancel any previous request to load a image.
 	[weakReference.referencedObject cancel];
 	
+	// Set the image view's image to be the placeholder image.
+	self.image = placeholderImage;
+	
 	// Load the image from the URL and set the image property on the image view.
 	FDImageLoader *imageLoader = [FDImageLoader sharedInstance];
 	FDWeakSelfDeclare();
