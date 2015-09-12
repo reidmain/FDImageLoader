@@ -29,7 +29,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2726074D1BA4D76300511D02"
+               BuildableName = "FDImageLoader iOS Tests.xctest"
+               BlueprintName = "FDImageLoader iOS Tests"
+               ReferencedContainer = "container:FDImageLoader.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "27016AE519E4DFE400743236"
+            BuildableName = "FDImageLoader.framework"
+            BlueprintName = "FDImageLoader iOS"
+            ReferencedContainer = "container:FDImageLoader.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
